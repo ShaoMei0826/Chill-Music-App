@@ -9,39 +9,41 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navigation">
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <button class="btn btn_start">
-                        Start
-                    </button>
-                </li>
-                <li class="nav_item">
-                    <button class="btn btn_mode">
-                        Mode
-                    </button>
-                </li>
-                <li class="nav_item">
-                    <button class="btn btn_info">
-                        Info
-                    </button>
-                </li>
-            </ul>
-        </nav>
+        <div class="today"></div>
     </header>
     <main class="main">
+
         <div class="wrapper">
-            <div class="activity">
-                Study
-            </div>
-            <div class="timer">
-                
-            </div>
+            <aside>
+                <h2>Radio</h2>
+            </aside>
+            <section class="center">
+                <div class="activity">
+                    Study
+                </div>
+                <button class="start">
+                    <svg class="player" width="100" height="100" viewBox="0 0 38 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id ="player" d="M2.53682 1.00458L37.2184 23.1805C37.8242 23.5679 37.8354 24.449 37.2395 24.8516L3.34472 47.7509C2.68714 48.1952 1.79891 47.7332 1.78506 46.9398L0.998269 1.86453C0.984344 1.06671 1.86455 0.574725 2.53682 1.00458Z" fill="url(#paint0_linear_9_25)" stroke="black" stroke-width="0.5"/>
+                        <defs>
+                        <lineargradient id="paint0_linear_9_25" x1="23.4574" y1="39.5771" x2="-7.95738" y2="9.24015" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#B282D8"/>
+                        <stop offset="1" stop-color="#4F1B1B"/>
+                        </lineargradient>
+                        </defs>
+                        </svg>
+                        
+                        
+                </button>
+                <div class="timer"></div>
+            </section>    
+            <aside>
+                <h2>Info</h2>
+            </aside>
         </div>
     </main>
     <footer class="footer">
 
     </footer>
-    <script src="/script.js" type="module"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
